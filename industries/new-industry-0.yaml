@@ -1,4 +1,4 @@
-available: false
+available: true
 callbacks: ''
 cargoAcceptance: []
 cargoProduction: []
@@ -9,15 +9,17 @@ layout:
 - - - 1
 name: 'New industry #0'
 placement: anywhere
-probabilityInGame: 5
-probabilityMapGen: 3
-prospectChance: 75
+probabilityInGame: 0
+probabilityMapGen: 0
+prospectChance: 100
 tiles:
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 3924
+      filename: industries/new-industry-0/8.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
@@ -28,11 +30,59 @@ tiles:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 3924
+      filename: industries/new-industry-0/7.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
       filename: industries/new-industry-0/2.png
+      left: -25
+      top: -11
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/new-industry-0/6.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/new-industry-0/3.png
+      left: 1
+      top: 16
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/new-industry-0/4.png
+      left: -31
+      top: 0
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/new-industry-0/5.png
+      left: -31
+      top: 0
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/new-industry-0/9.png
       left: -31
       top: 0
 type: primary
